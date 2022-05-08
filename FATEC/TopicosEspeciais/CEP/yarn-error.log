@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\RAD Studio\12.0\bin;C:\Users\Public\Documents\RAD Studio\12.0\Bpl;C:\Program Files (x86)\Embarcadero\RAD Studio\12.0\bin64;C:\Users\Public\Documents\RAD Studio\12.0\Bpl\Win64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Cmder\Cmder.exe;C:\Users\55169\AppData\Local\Microsoft\WindowsApps;C:\Users\55169\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\55169\AppData\Local\GitHubDesktop\bin;C:\Users\55169\AppData\Roaming\npm;C:\Users\55169\AppData\Local\Yarn\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\55169\ProjetosWeb\FATEC\TopicosEspeciais\CEP\package.json: Unexpected token ​ in JSON at position 1
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {​​
+  
+    "name": "cep",
+  
+    "version": "1.0.0",
+  
+    "description": "",
+  
+    "main": "index.js",
+  
+    "scripts": {​​
+  
+      "test": "echo \"Error: no test specified\" && exit 1"
+  
+    }​​,
+  
+    "keywords": [],
+  
+    "author": "",
+  
+    "license": "ISC",
+  
+    "dependencies": {​​
+  
+      "cors": "^2.8.5",
+  
+      "express": "^4.17.1",
+  
+      "node-correios": "^3.0.2",
+  
+      "nodemon": "^2.0.6"
+  
+    }​​
+  
+  }​​
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
